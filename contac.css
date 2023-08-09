@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: azure;
+}
+.contact-area{
+    position: absolute;
+    top: 3rem;
+
+    
+}
+button{
+    width: 10rem;
+    border-radius: 3px;
+    border: solid 1px black;
+}
+input{
+    width: 12rem;
+    height: 3rem;
+    border-radius: 3px;
+    border: solid 1.5px black;
+}
+textarea{
+    border: solid 1.5px black;
+}
+.submitBtn{
+    width: 25rem;
+}

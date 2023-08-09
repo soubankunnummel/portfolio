@@ -1,0 +1,718 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+*{
+    transition: all 0.1s ease-in-out
+}
+body{
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#navLogo{
+   
+    font-size: 30px;
+}
+#naveBar{
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    
+}
+
+.dis-area {
+    display: flex;
+    
+    position: absolute;
+    top: 4rem;
+    background-color: aliceblue
+    
+}
+.main{
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+@media screen and (min-width:1024px) {
+    .dis-area{
+    /* margin-top: 5rem; */
+    /* top: 6rem; */
+    
+        
+    }
+    
+}
+@media screen and (max-width:991px) {
+    .dis-area{
+        margin-top: 5rem;
+        position: absolute;
+        left: 1rem;
+        
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .dis-area{
+        margin-top: 4rem;
+        left: 2rem;
+        
+        
+    }
+    #myImage{
+        width: 150px;
+    }
+    
+}
+@media screen and (max-width:425px) {
+    .dis-area{
+        margin-top: 5rem;
+        
+    }
+    
+} 
+
+#myImage{
+    width: 100%;
+}
+.btn-hireME{
+    width: 120px;
+    height: 55px;
+    border-radius: 12px;
+}
+.whoIam{
+    display: flex;
+    position: absolute;
+    top: 38rem;
+    margin-top: 10rem;
+    left: 4rem;
+
+    
+    
+}
+
+@media screen and (max-width:1440px) {
+    .whoIam{
+    top: 40rem;
+    /* left: 4rem; */
+    }
+    .whoImg{
+        width: 20rem;
+        
+    }
+    
+}
+@media screen and (max-width:991px) {
+    .whoIam{
+    top: 75rem;
+    left: 3rem;
+     }
+    .whoImg{
+        width: 30rem;
+        
+    }
+    
+} 
+ @media screen and (max-width:768px) {
+    .whoIam{
+    top: 65rem;
+    left: 2rem; 
+    }
+    .whoImg{
+        width: 25rem;
+        
+    }
+    
+}
+ @media screen and (max-width:375px) {
+    .whoIam{
+    top: 65rem;
+    left: 1rem;
+    }
+    .whoImg{
+        width: 20rem;
+        
+        
+    }
+    
+}
+/* .whoImg{
+    width: 30rem;
+    
+}  */ 
+
+
+ .resume{
+    position: absolute;
+    top: 60rem;
+    margin-top: 12rem;
+    background-color: aliceblue
+  
+}
+ @media screen and (max-width:991px) {
+    .resume{
+        
+        top: 120rem;
+    }
+    
+} 
+ @media screen and (max-width:768px) {
+    .resume{
+        
+        top: 110rem;
+    }
+    
+} 
+.service-area{
+    position: relative;
+    top:100rem
+}
+.cards{
+    width:18rem ;
+    height: 23rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+@media screen and (max-width:991px) {
+    .service-area{
+        
+        top:160rem
+    }
+    .cards{
+    
+        width:18rem ;
+        height: 23rem;
+        
+    }
+    
+}
+@media screen and (max-width:890px) {
+    
+    .cards{
+    
+        width:16rem ;
+        height: 23rem;
+        
+    }
+    
+}
+@media screen and (max-width:800px) {
+    
+    .cards{
+    
+        width:15rem ;
+        height: 23rem;
+        
+    }
+    
+}
+   
+@media screen and (max-width:768px) {
+    .service-area{
+        
+        top:150rem
+    }
+    
+    .cards{
+    
+        width:15rem ;
+        height: 23rem;
+        padding-top: 3rem;
+        margin-top: 3rem;
+        
+    }
+    /* .Hcart-area{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        
+    } */
+    
+}
+   
+@media screen and (max-width:544px) {
+    .service-area{
+        
+        top:165rem
+    }
+    
+    .cards{
+    
+        width:15rem ;
+        height: 23rem;
+        padding-top: 3rem;
+        margin-top: 3rem;
+        
+    }
+    /* .Hcart-area{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        
+    }
+     */
+}
+@media screen and (max-width:342px) {
+    .service-area{
+        
+        top:175rem
+    }
+    
+    .cards{
+    
+        width:15rem ;
+        height: 23rem;
+        padding-top: 3rem;
+        margin-top: 3rem;
+        
+    }
+    
+    
+}
+
+.carousel-item{
+   visibility: hidden !important;
+   transition: all 0.1s ease-in-out !important;
+    position: relative;
+    z-index: 2;
+    top: 2rem;
+    
+}
+.arrobtn{
+    display: none;
+
+
+}
+
+@media screen and (max-width:768px) {
+    .Hcart-area{
+        display: flex;
+        display: none !important;
+        align-items: center;
+        
+    }
+    .carousel-item{
+    visibility: visible !important;
+    left: 15rem;
+    top: 2rem;
+        
+        
+    }
+    .arrobtn{
+       display: block;
+        
+    
+    }
+    
+}
+ @media screen and (max-width:660px) {
+    .Hcart-area{
+        display: flex;
+        display: none !important;
+        align-items: center;
+        left: 15rem;
+        top: 2rem;
+        
+    }
+    .carousel-item{
+    visibility: visible !important;
+    left: 12rem;
+        
+        
+    }
+    .arrobtn{
+       display: block;
+        
+    
+    }
+    
+} 
+ @media screen and (max-width:541px) {
+    .Hcart-area{
+        display: flex;
+        display: none !important;
+        align-items: center;
+        left: 15rem;
+        top: 2rem;
+        
+    }
+    .carousel-item{
+    visibility: visible !important;
+    left: 9rem;
+        
+        
+    }
+    .arrobtn{
+       display: block;
+        
+    
+    }
+    
+} 
+ @media screen and (max-width:455px) {
+    .Hcart-area{
+        display: flex;
+        display: none !important;
+        align-items: center;
+        left: 15rem;
+        top: 2rem;
+        
+    }
+    .carousel-item{
+    visibility: visible !important;
+    left: 5rem;
+        
+        
+    }
+    .arrobtn{
+       display: block;
+        
+    
+    }
+    
+} 
+ @media screen and (max-width:377px) {
+    .Hcart-area{
+        display: flex;
+        display: none !important;
+        align-items: center;
+        left: 15rem;
+        top: 2rem;
+        
+    }
+    .carousel-item{
+    visibility: visible !important;
+    left: 3rem;
+        
+        
+    }
+    .arrobtn{
+       display: block;
+        
+    
+    }
+    .cards{
+        width:13rem ;
+        height: 23rem;
+    }
+    
+} 
+ @media screen and (max-width:341px) {
+    .Hcart-area{
+        display: flex;
+        display: none !important;
+        align-items: center;
+        left: 15rem;
+        top: 2rem;
+        
+    }
+    .carousel-item{
+    visibility: visible !important;
+    left: 3rem;
+        
+        
+    }
+    .arrobtn{
+       display: block;
+       padding: 2rem;
+        
+    
+    }
+    
+}
+.skil-area{
+    position: relative;
+    top:85rem;
+    background-color: aliceblue;
+}
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color: #000000;
+    padding: 20px;
+
+    /* list-style: none;
+    padding: 0;
+    margin: 0; */
+}
+.Hskil{
+    text-align: center;
+    text-transform: uppercase;
+}
+.title-skil{
+    margin: 5px;
+}
+.skil li{
+    margin: 20px;
+    padding: 10px;
+   
+
+}
+li{
+      list-style-type: none; 
+}
+.bar{
+    background: rgb(255, 255, 255);
+    display: block;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+    
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: all 3.0s cubic-bezier(.25,.8,.25,1);
+
+}
+.bar:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    transition: 1s;
+}
+.bar span{
+    height: 20px;
+    float: left;
+    background: linear-gradient(135deg, rgb(255, 255, 255)0%, rgb(189, 226, 249)100%);
+
+}
+.cprogram{
+    width: 35%;
+    animation: cprogram 3s;
+}
+.java{
+    width: 30%;
+    animation: java 3s;
+}
+.html{
+    width: 75%;
+    animation: html 3s;
+}
+.js{
+    width: 45%;
+    animation: js 3s;
+}
+.node{
+    width: 20%;
+    animation: node 3s;
+}
+.react{
+    width: 30%;
+    animation: react 3s;
+}
+.mongo{
+    width: 20%;
+    animation: mongo 3s;
+}
+.boosrap{
+    width: 60%;
+    animation: boosrap 3s;
+}
+
+@keyframes cprogram {
+    0%   {
+        width : 0%;
+    }
+    100%{
+        width:35% ;
+    }
+
+}
+@keyframes java {
+    0%   {
+        width : 0%;
+    }
+    100%{
+        width:30% ;
+    }
+
+}
+@keyframes html {
+    0%   {
+        width : 0%;
+    }
+    100%{
+        width:75% ;
+    }
+
+}
+@keyframes js {
+    0%   {
+        width : 0%;
+    }
+    100%{
+        width:45% ;
+    }
+
+}
+
+@keyframes node {
+    0%   {
+        width : 0%;
+    }
+    100%{
+        width:20% ;
+    }
+
+}
+@keyframes react {
+    0%   {
+        width : 0%;
+    }
+    100%{
+        width:30% ;
+    }
+
+}
+@keyframes mongo {
+    0%   {
+        width : 0%;
+    }
+    100%{
+        width:20% ;
+    }
+
+}
+@keyframes boosrap {
+    0%   {
+        width : 0%;
+    }
+    100%{
+        width:60% ;
+    }
+
+}
+@media screen and (max-width:991px) {
+
+    .skil-area{
+        
+        top:145rem
+    }
+    
+}
+@media screen and (max-width:768px) {
+
+    .skil-area{
+        
+        top:160rem
+    }
+    
+}
+@media screen and (max-width:544px) {
+
+    .skil-area{
+        
+        top:170rem
+    }
+    
+}
+@media screen and (max-width:342px) {
+
+    .skil-area{
+        
+        top:180rem
+    }
+    
+}
+.contact-area {
+    position: relative;
+    top: 170rem !important;
+    left: 20rem;
+}
+.text-footer{
+    font-size: 2rem;
+
+}
+.btn-contact{
+    width: 9rem;
+    border-radius: 2rem;
+    
+
+}
+@media screen and (max-width:991px) {
+    .contact-area{
+        
+       top:150rem;
+    }
+    .contact-area {
+        position: relative;
+        top: 235rem !important;
+        left: 12rem;
+    }
+}
+@media screen and (max-width:768px) {
+    .contact-area{
+        
+       top:165rem;
+    }
+    .contact-area {
+        position: relative;
+        top: 225rem !important;
+        left: 4rem;
+    }
+    
+}
+@media screen and (max-width:544px) {
+    .contact-area{
+        
+       top:175rem;
+    }
+    .contact-area {
+        position: relative;
+        top: 235rem !important;
+        left: 2rem;
+    }
+    
+}
+@media screen and (max-width:342px) {
+    .contact-area{
+        
+       top:185rem;
+    }
+    .contact-area {
+        position: relative;
+        top: 260rem !important;
+        left: 1rem;
+    }
+    
+}
+.Footr-icons {
+    width: 100%;
+    position: relative;
+    top: 90rem;
+   background-color: rgba(199, 241, 249, 0.687);
+    
+}
+@media screen and (max-width:991px) {
+
+    .Footr-icons {
+
+    top: 180rem;
+    
+}
+}
+@media screen and (max-width:768px) {
+
+    .Footr-icons {
+
+    top: 170rem;
+    
+}
+}
+@media screen and (max-width:544px) {
+
+    .Footr-icons {
+
+    top: 180rem;
+    
+}
+}
+@media screen and (max-width:342px) {
+
+    .Footr-icons {
+
+    top: 200rem;
+    
+}
+}
+.copyrit-text{
+    
+}
+

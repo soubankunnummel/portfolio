@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.projece-are{
+    position: relative;
+    top: 10rem;
+}
+.projec-card{
+    height: 30rem;
+    
+}
+.projec-card1{
+    background-image: url(images/linkdin.jpg);
+    background-size: cover;
+}
+.projec-card2{
+    background-image: url(images/w3Nave.jpg);
+    background-size: cover;
+}
+.project-name{
+    visibility: hidden;;
+}
+.project-name:hover{
+    visibility: visible;
+    font-size: 4rem;
+    top: 4rem;
+}
+img{
+    width: 50%;
+}
