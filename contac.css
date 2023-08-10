@@ -4,6 +4,7 @@ body{
     box-sizing: border-box;
     background-color: azure;
     padding-bottom: 0;
+    /* overflow: hidden; */
 }
 .contact-area{
     position: absolute;
