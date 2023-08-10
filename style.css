@@ -611,14 +611,11 @@ li{
     }
     
 }
+
 .contact-area {
     position: relative;
     top: 170rem !important;
     left: 20rem;
-}
-.text-footer{
-    font-size: 2rem;
-
 }
 .btn-contact{
     width: 9rem;
@@ -626,6 +623,12 @@ li{
     
 
 }
+
+.text-footer{
+    font-size: 2rem;
+
+}
+
 @media screen and (max-width:991px) {
     .contact-area{
         

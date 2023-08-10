@@ -3,6 +3,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     background-color: azure;
+    padding-bottom: 0;
 }
 .contact-area{
     position: absolute;
@@ -26,4 +27,47 @@ textarea{
 }
 .submitBtn{
     width: 25rem;
+}
+
+
+    /* footer */
+
+.Footr-icons1 {
+    
+    /* position: absolute; */
+    
+   /* background-color: rgba(199, 241, 249, 0.687); */
+    
+}
+@media screen and (max-width:991px) {
+
+    .Footr-icons {
+
+    top: 180rem;
+    
+}
+}
+@media screen and (max-width:768px) {
+
+    .Footr-icons {
+
+    top: 170rem;
+    
+}
+}
+@media screen and (max-width:544px) {
+
+    .Footr-icons {
+
+    top: 180rem;
+    
+}
+}
+@media screen and (max-width:342px) {
+
+    .Footr-icons {
+
+    top: 200rem;
+    
+}
 }
